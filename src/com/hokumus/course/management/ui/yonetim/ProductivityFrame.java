@@ -17,6 +17,8 @@ import com.hokumus.course.management.dao.yonetim.ProductivityDAO;
 import com.hokumus.course.management.model.yonetim.KarZarar;
 import com.hokumus.course.management.model.yonetim.Kurs;
 import com.hokumus.course.management.model.yonetim.Productivity;
+import com.hokumus.course.management.ui.kullanici.EnterUser;
+import com.hokumus.course.management.ui.mainscreen.MainFrame;
 import com.hokumus.course.management.util.CourseUtils;
 import javax.swing.DefaultComboBoxModel;
 import javax.swing.JButton;
@@ -164,13 +166,13 @@ public class ProductivityFrame extends JFrame{
 	panel_2.add(txtOfferings);
 	
 	JButton btnNewButton_1 = new JButton("Menüye Dön");
-	btnNewButton_1.addActionListener(new ActionListener() {
-		public void actionPerformed(ActionEvent e) {
-//			MainFrame mf = new MainFrame(EnterUser.this);
+//	btnNewButton_1.addActionListener(new ActionListener() {
+//		public void actionPerformed(ActionEvent e) {
+//			MainFrame mf = new MainFrame(ProductivityFrame.this);
 //			mf.setVisible(true);
 //			ProductivityFrame.this.setVisible(false);
-		}
-	});
+//		}
+//	});
 	btnNewButton_1.setFont(new Font("Tahoma", Font.PLAIN, 15));
 	btnNewButton_1.setBounds(906, 520, 140, 25);
 	panel_2.add(btnNewButton_1);

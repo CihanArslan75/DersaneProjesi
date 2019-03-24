@@ -17,7 +17,7 @@ import com.hokumus.course.management.model.yonetim.Productivity;
 
 public class ProductivityExcel extends ProductivityFrame {
 		    
-	private static final String FILE_NAME = "C:\\Users\\Cihan\\Desktop\\Cihan\\VerimlilikRaporu.xlsx";
+	private static final String FILE_NAME = "C:\\VerimlilikRaporu.xlsx";
 	private static String[] columns = {"Kursun Adı","NO","Kar/Zarar","Kursun Verimliliği","Kursun Puanı","Öğretmenlerin Verimliliği","Öğretmenlerin Puanı","Öğrencilerin Verimliliği","Öğrencilerin Puanı","Öneriler","Öneri Yapan Kullanıcı","Tarih"};
  	
 	public ProductivityExcel() {
